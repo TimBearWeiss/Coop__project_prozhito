@@ -1,0 +1,10 @@
+.news__category {
+  margin: 0;
+  color: #323232;
+}
+
+@media screen and (max-width: 1220px) {
+  .news__category {
+    font-style: italic;
+  }
+}

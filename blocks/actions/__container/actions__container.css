@@ -1,0 +1,17 @@
+.actions__container {
+  padding: 0 148px 164px;
+  max-width: 1144px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+	.actions__container {
+    padding: 0 16px 36px;
+	}
+  }
+    
+@media screen and (max-width: 767px) {
+	.actions__container {
+    padding: 0 12px 96px;
+	}
+  }

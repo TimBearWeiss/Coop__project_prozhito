@@ -1,0 +1,25 @@
+.about__banner {
+  position: absolute;
+  z-index: 1;
+  top: 120px;
+  right: 0px;
+  max-width: 237px;
+  max-height: 132px;
+  background-color: #a5cdab;
+}
+
+@media screen and (max-width: 1416px) {
+	.about__banner {
+    top: 90px;
+    width: 191px;
+    height: 112px;
+	}
+  }
+    
+@media screen and (max-width: 600px) {
+	.about__banner {
+    top:55px;
+    width: 157px;
+    height: 104px
+	}
+  }

@@ -1,0 +1,29 @@
+.journal-list {
+  display: flex;
+  column-gap: 20px;
+  overflow-x: scroll;
+  height: 100%;
+}
+
+.journal-list::-webkit-scrollbar {
+  background-color: #E7E4DE;
+  border-radius: 2px;
+  height: 4px;
+}
+
+.journal-list::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 610px) {
+  .journal-list {
+    overflow-x: scroll;
+    column-gap: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 16vw);
+  }
+  .journal-list::-webkit-scrollbar {
+    height: 0;
+  }
+}

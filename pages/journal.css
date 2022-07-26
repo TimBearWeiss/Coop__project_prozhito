@@ -1,0 +1,19 @@
+@import url('../blocks/journal/__heading/journal__heading.css');
+@import url('../blocks/journal/__sort-block/journal__sort-block.css');
+@import url('../blocks/journal/__sort-link/journal__sort-link.css');
+@import url('../blocks/journal/__sort-title/journal__sort-title.css');
+@import url('../blocks/posts/posts.css');
+@import url('../blocks/posts/__container/posts__container.css');
+
+@import url('../blocks/journal-card/journal-card.css');
+@import url('../blocks/journal-card/__description/journal-card__description.css');
+@import url('../blocks/journal-card/__title/journal-card__title.css');
+@import url('../blocks/journal-card/__category/journal-card__category.css');
+@import url('../blocks/journal-card/__subtitle/journal-card__subtitle.css');
+@import url('../blocks/journal-card/__image/journal-card__image.css');
+
+@import url('../blocks/experience-card/experience-card.css');
+@import url('../blocks/experience-card/__image/experience-card__image.css');
+@import url('../blocks/experience-card/__regalia/experience-card__regalia.css');
+@import url('../blocks/experience-card/__title/experience-card__title.css');
+@import url('../blocks/experience-card/__category/experience-card__category.css');

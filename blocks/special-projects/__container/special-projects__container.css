@@ -1,0 +1,14 @@
+.special-projects__container {
+    max-width: 1376px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 19.66px;
+}
+
+@media screen and (max-width: 600px) {
+    .special-projects__container {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,14 @@
+.experience-card__regalia {
+  margin: 0;
+  text-align: center;
+  color: #323232;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'PT', 'Arial', sans-serif;
+}
+
+@media screen and (max-width: 1220px) {
+  .experience-card__regalia {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,23 @@
+.news-feed {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    row-gap: 62px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1220px) {
+  .news-feed  {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+	.news-feed  {
+    margin: 0 12px;
+		row-gap: 28px;
+	}
+}

@@ -1,0 +1,22 @@
+.journal__sort-block {
+  margin: 0 auto 20px;
+  max-width: 574px;
+  max-height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .journal__sort-block {
+    width: 482px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .journal__sort-block {
+    display: none;
+  }
+}

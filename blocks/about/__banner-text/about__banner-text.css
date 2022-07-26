@@ -1,0 +1,28 @@
+.about__banner-text {
+	width: 175px;
+	height: 36px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0px;
+	margin: 0;
+	padding: 0 38px 16px 24px;
+}
+
+@media screen and (max-width: 1416px) {
+	.about__banner-text {
+		width: 151px;
+		height: 32px;
+		font-size: 12px;
+		line-height: 16px;
+		padding: 0 20px 12px;
+	}
+  }
+    
+@media screen and (max-width: 600px) {
+	.about__banner-text {
+		width: 125px;
+		height: 32px;
+		padding: 0 16px 12px;
+	}
+  }

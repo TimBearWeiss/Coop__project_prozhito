@@ -1,0 +1,18 @@
+.footer__about {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__about {
+  width: 100%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .footer__about {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}

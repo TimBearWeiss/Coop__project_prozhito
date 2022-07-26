@@ -1,0 +1,12 @@
+.materials__container {
+  max-width: 1440px;
+  background-color: #ffffff;
+  padding-bottom: 75px;
+  margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 1140px) {
+  .materials__container {
+    padding-bottom: 32px;
+  }
+}

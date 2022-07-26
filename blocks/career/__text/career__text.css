@@ -1,0 +1,26 @@
+.career__text {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: rgba(50, 50, 50, 0.7);
+  max-width: 660px;
+  margin: 0 0 182px 0;
+}
+
+@media screen and (max-width: 1140px) {
+  .career__text {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 61px 0;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .career__text {
+    max-width: 336px;
+    margin: 16px auto 16px auto;
+    text-align: center;
+  }
+}

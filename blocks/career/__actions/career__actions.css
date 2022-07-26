@@ -1,0 +1,11 @@
+.career__actions {
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 762px) {
+  .career__actions {
+    flex-direction: column;
+    gap: 16px;
+  }
+}

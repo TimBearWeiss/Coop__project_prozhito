@@ -1,0 +1,16 @@
+.audioplayer__rewind-button_reverse {
+  transform: scale(-1, 1);
+}
+
+.audioplayer__rewind-button_reverse:hover {
+  cursor: pointer;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .audioplayer__rewind-button_reverse {
+    transform: scale(-1, 1);
+    width: 18px;
+    height: 20px;
+  }
+}

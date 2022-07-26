@@ -1,0 +1,27 @@
+.news-card {
+  display: grid;
+  grid-template-columns: 89px 212px;
+  grid-template-rows: 223px max-content;
+  column-gap: 28px;
+  cursor: pointer;
+}
+
+.news-card:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 1220px) {
+  .news-card {
+    grid-template-columns: 66px 102px;
+    grid-template-rows: 120px max-content;
+    column-gap: 12px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .news-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: 160px max-content 24px;
+    margin-bottom: 16px;
+  }
+}

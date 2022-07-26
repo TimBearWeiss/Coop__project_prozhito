@@ -1,0 +1,18 @@
+.footer__social-list {
+  max-width: 158px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__social-list {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .footer__social-list {
+    flex-direction: row;
+    margin-bottom: 24px;
+  }
+}

@@ -1,0 +1,6 @@
+.paginator__numbers {
+    display: flex;
+    width: 185px;
+    height: 34px;
+    gap: 18px;
+}

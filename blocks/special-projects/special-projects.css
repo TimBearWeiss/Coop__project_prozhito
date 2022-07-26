@@ -1,0 +1,8 @@
+.special-projects {
+    max-width: 1376px;
+    margin: 0 auto; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

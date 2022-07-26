@@ -1,0 +1,13 @@
+.round-btn_color_transparent {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  border: 1px solid #000;
+}
+
+@media screen and (max-width: 1220px) {
+  .round-btn_color_transparent {
+    width: 32px;
+    height: 32px;
+  }
+}

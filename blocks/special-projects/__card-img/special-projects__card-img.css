@@ -1,0 +1,22 @@
+.special-projects__card-img {
+    max-width: 212.3px;
+    object-fit: cover;
+    margin: 0;
+    margin-right: 31.45px;
+    padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .special-projects__card-img {
+        max-width: 361px;
+        max-height: 182px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .special-projects__card-img {
+        max-width: 336px;
+        max-height: 200px;
+    }
+}

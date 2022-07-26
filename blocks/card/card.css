@@ -1,0 +1,28 @@
+.card {
+  min-width: 328px;
+
+  background: #e7e4de;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  isolation: isolate;
+  position: relative;
+}
+
+.card:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1140px) {
+  .card {
+    min-width: 237px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .card {
+    min-width: 276px;
+  }
+}

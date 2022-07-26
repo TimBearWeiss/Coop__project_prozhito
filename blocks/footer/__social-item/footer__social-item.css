@@ -1,0 +1,21 @@
+.footer__social-item {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.footer__social-item:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__social-item {
+    margin: 0 24px 0 0;
+  }
+
+  .footer__social-item:last-of-type {
+    margin: 0;
+  }
+}

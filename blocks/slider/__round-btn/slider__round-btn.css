@@ -1,0 +1,7 @@
+@media screen and (max-width: 610px) {
+  .slider__round-btn {
+    background-color: transparent;
+    height: 18px;
+    width: 21px;
+  }
+}

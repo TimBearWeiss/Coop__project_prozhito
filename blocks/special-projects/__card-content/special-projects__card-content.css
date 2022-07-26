@@ -1,0 +1,15 @@
+.special-projects__card-content {
+    max-width: 401.99px;    
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .special-projects__card-content {
+        margin: 0 12px;
+        padding-top: 12px;
+        height: 171px;
+    }
+}

@@ -1,0 +1,29 @@
+.materials__container-row {
+  max-width: 1144px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 762px) {
+  .materials__container-row {
+    gap: 12px;
+    overflow-x: scroll;
+    justify-content: none;
+    flex-direction: none;
+  }
+
+  .materials__container-row::-webkit-scrollbar {
+    background-color: #e7e4de;
+    border-radius: 2px;
+    height: 4px;
+  }
+
+  .materials__container-row::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 2px;
+  }
+}

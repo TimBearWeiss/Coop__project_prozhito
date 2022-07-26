@@ -1,0 +1,10 @@
+.audioplayer__rewind-button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .audioplayer__rewind-button {
+    width: 18px;
+    height: 20px;
+  }
+}

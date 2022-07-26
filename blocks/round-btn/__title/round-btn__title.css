@@ -1,0 +1,21 @@
+.round-btn__title {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'PT', 'Arial', sans-serif;
+  margin-right: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1220px) {
+  .round-btn__title {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .round-btn__title {
+    color: #323232;
+    margin-right: 18px;
+  }
+}

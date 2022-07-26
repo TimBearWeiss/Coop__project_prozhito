@@ -1,0 +1,39 @@
+.experience-card {
+  height: 526px;
+  min-width: 328px;
+  width: 328px;
+  padding: 32px 15.5px 28px;
+  box-sizing: border-box;
+  background-color: #E7E4DE;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.experience-card:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 1220px) {
+  .experience-card {
+    height: 280px;
+    min-width: 180px;
+    width: 180px;
+    padding: 12px 8px 10px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .experience-card {
+    height: 352px;
+    min-width: 252px;
+    width: 252px;
+    padding: 12px 8px;
+  }
+  .experience-card:hover {
+    opacity: 1;
+    transition: .3s ease;
+    z-index: 3;
+  }
+}

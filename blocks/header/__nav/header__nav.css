@@ -1,0 +1,11 @@
+.header__nav {
+  background-size: 100vw;
+  max-width: 1400px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(50, 50, 50, .3);
+  box-sizing: border-box;
+}

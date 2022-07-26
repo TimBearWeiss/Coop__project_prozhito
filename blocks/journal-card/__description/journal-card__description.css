@@ -1,0 +1,20 @@
+.journal-card__description {
+  margin: 0;
+  font-family: 'PT', 'Arial', sans-serif;
+  color: #F5F5F5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1220px) {
+  .journal-card__description {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .journal-card__description {
+    display: inline;
+    font-size: 12px;
+  }
+}

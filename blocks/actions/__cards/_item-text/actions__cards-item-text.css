@@ -1,0 +1,29 @@
+.actions__cards-item-text {
+	font-family: PT Sans;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin: 0 32px;
+	width: 498.17px;
+	height: 78px;
+
+}
+
+@media screen and (max-width: 1439px) {
+	.actions__cards-item-text {
+		width: 306px;
+		height: 54px;
+		font-size: 14px;
+		line-height: 18px;
+	}
+  }
+    
+@media screen and (max-width: 767px) {
+	.actions__cards-item-text {
+		width: 312px;
+		height: 54px;
+		margin: 0 12px;
+	}
+  }

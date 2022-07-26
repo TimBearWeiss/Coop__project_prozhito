@@ -1,0 +1,67 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/fonts.css");
+@import url("../blocks/page/page.css");
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__nav/header__nav.css');
+@import url('../blocks/header/__menu-list/header__menu-list.css');
+@import url('../blocks/header/__menu-item/header__menu-item.css');
+@import url('../blocks/header/__submenu-list/header__submenu-list.css');
+@import url('../blocks/header/__mobile-menu/header__mobile-menu.css');
+
+@import url('../blocks/header/_bg/header_bg_white.css');
+
+@import url('../blocks/breadcrumbs/breadcrumbs.css');
+@import url('../blocks/breadcrumbs/__link/breadcrumbs__link.css');
+
+
+@import url('../blocks/audioplayer/__play-button/audioplayer__play-button.css');
+@import url('../blocks/audioplayer/__rewind-button/audioplayer__rewind-button.css');
+@import url('../blocks/audioplayer/__rewind-button/_reverse/audio-player__rewindbutton_reverse.css');
+@import url('../blocks/audioplayer/__time/audioplayer__time.css');
+@import url('../blocks/audioplayer/__story/audioplayer__story.css');
+@import url('../blocks/audioplayer/__volume-button/audioplayer__volume-button.css');
+@import url('../blocks/audioplayer/audioplayer.css');
+
+@import url('../blocks/sidebanner/sidebanner.css');
+@import url('../blocks/sidebanner/_close/sidebanner_close.css');
+@import url('../blocks/sidebanner/__title/sidebanner__title.css');
+@import url('../blocks/sidebanner/__text/sidebanner__text.css');
+@import url('../blocks/sidebanner/__close-button/sidebanner__close-button.css');
+
+@import url('../blocks/popup-structure/popup-structure.css');
+@import url('../blocks/popup-structure/__container/popup-structure__container.css');
+@import url('../blocks/popup-structure/__part/popup-structure__part.css');
+@import url('../blocks/popup-structure/__close-button/popup-structure__close-button.css');
+@import url('../blocks/popup-structure/_opened/popup-structure_opened.css');
+
+@import url('../blocks/structure/structure.css');
+@import url('../blocks/structure/__button/structure__button.css');
+
+@import url('../blocks/article/article.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__info/footer__info.css');
+@import url('../blocks/footer/__menu-item/footer__menu-item.css');
+@import url('../blocks/footer/__menu-list/footer__menu-list.css');
+@import url('../blocks/footer/__info/footer__info.css');
+@import url('../blocks/footer/__politics-list/footer__politics-list.css');
+@import url('../blocks/footer/__politics-item/footer__politics-item.css');
+@import url('../blocks/footer/__social-list/footer__social-list.css');
+@import url('../blocks/footer/__social-item/footer__social-item.css');
+@import url('../blocks/footer/__social-image/footer__social-image.css');
+@import url('../blocks/footer/__social-name/footer__social-name.css');
+@import url('../blocks/footer/__about/footer__about.css');
+@import url('../blocks/footer/__nav/footer__nav.css');
+
+@import url('../blocks/breadcrumbs/breadcrumbs.css');
+
+@import url('../blocks/popup-menu/popup-menu.css');
+@import url('../blocks/popup-menu/__close-button/popup-menu__close-button.css');
+@import url('../blocks/popup-menu/__menu-item/popup-menu__menu-item.css');
+@import url('../blocks/popup-menu/__menu-list/popup-menu__menu-list.css');
+@import url('../blocks/popup-menu/__header/popup-menu__header.css');
+@import url('../blocks/link/link.css');
+
+@import url("../blocks/popup/__close-button/popup__close-button.css");
+@import url("../blocks/typical_page/banner/__close-button/banner__close-button.css");

@@ -1,0 +1,19 @@
+.slider__title {
+  font-size: 46px;
+  color: #fff;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media screen and (max-width: 1220px) {
+  .slider__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .slider__title {
+    color: #323232;
+    font-size: 32px;
+  }
+}

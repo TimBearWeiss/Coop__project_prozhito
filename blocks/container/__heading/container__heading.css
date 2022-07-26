@@ -1,0 +1,27 @@
+.container__heading {
+  max-width: 229px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 120%;
+  color: #323232;
+  margin: 0 auto 40px auto;
+  padding-top: 56px;
+}
+
+@media screen and (max-width: 1140px) {
+  .container__heading {
+    font-size: 30px;
+    line-height: 37px;
+    margin: 0 auto 24px auto;
+    padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .container__heading {
+    font-size: 32px;
+    line-height: 120%;
+  }
+}

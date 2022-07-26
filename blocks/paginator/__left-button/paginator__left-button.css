@@ -1,0 +1,13 @@
+.paginator__left-button {
+    background: transparent url(../../../images/components/left-arrow.svg) center no-repeat;;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 12.02px;
+    width: 16.61px;
+}
+
+.paginator__left-button:hover {
+    opacity: 0.6;
+}

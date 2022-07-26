@@ -1,0 +1,23 @@
+.news-feed__image {
+	grid-column: 2;
+	grid-row: 1 / 3;
+	width: 212px;
+	height: 223px;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 1220px) {
+	.news-feed__image {
+		width: 102px;
+		height: 120px;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	.news-feed__image {
+		width: 100%;
+		height: 160px;
+		grid-column: 1 / 3;
+        grid-row: 1;
+	}
+}

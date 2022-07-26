@@ -1,0 +1,14 @@
+.journal-card__title {
+  margin: 0 0 26px;
+  color: #F5F5F5;
+  font-family: 'PT', 'Arial', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1220px) {
+  .journal-card__title {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+}
