@@ -1,11 +1,11 @@
 .cards_learn-more {
   width: 140px;
   height: 26px;
-  font-family: PT Sans;
+  font-family: PT, serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-align: left;
   color: rgba(50, 50, 50, 0.5);
 }

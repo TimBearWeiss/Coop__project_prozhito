@@ -1,10 +1,10 @@
 .round-btn__title {
   color: #fff;
   font-size: 20px;
-  font-family: 'PT', 'Arial', sans-serif;
+  font-family: 'PT Sans', serif;
   margin-right: 20px;
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 1220px) {

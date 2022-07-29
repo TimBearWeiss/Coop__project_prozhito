@@ -1,9 +1,9 @@
 .paginator__button {
-font-family: PT Sans;
+    font-family: PT Sans, serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 34px;
-letter-spacing: 0px;
+letter-spacing: 0;
 width: 32px;
 height: 34px;
 text-decoration: none;
