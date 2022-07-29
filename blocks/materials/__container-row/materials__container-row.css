@@ -1,9 +1,8 @@
 .materials__container-row {
   max-width: 1144px;
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  justify-content: center;
+  column-gap: 80px;
 
   margin: 0 auto 0 auto;
 }
