@@ -12,8 +12,8 @@
   .materials__container-row {
     gap: 12px;
     overflow-x: scroll;
-    justify-content: none;
-    flex-direction: none;
+    justify-content: unset;
+    flex-direction: unset;
   }
 
   .materials__container-row::-webkit-scrollbar {

@@ -1,9 +1,9 @@
 .journal__heading {
-  font-family: 'PT', 'Arial', sans-serif;
+  font-family: PT, serif;
   font-size: 46px;
   font-weight: 400;
   line-height: 60px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   margin: 42px 0 62px;
   text-align: center;
 }

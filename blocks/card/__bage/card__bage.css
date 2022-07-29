@@ -3,13 +3,10 @@
   border-radius: 8px;
   width: 187px;
   height: 34px;
-
   z-index: 4;
-
   border: none;
   padding: 0;
-  z-index: 4;
-  font-family: "PT Sans";
+  font-family: 'PT Sans', serif;
   text-decoration-color: #323232;
   font-style: normal;
   font-weight: 400;
@@ -18,7 +15,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   position: absolute;
   left: calc(50% - 187px / 2);
   top: -16px;

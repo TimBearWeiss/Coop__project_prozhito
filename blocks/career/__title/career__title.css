@@ -1,12 +1,12 @@
 .career__title {
-  font-family: "WF";
+  font-family: 'WF', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 100%;
   color: #323232;
   margin: 0 0 32px 0;
-  max-width: 547.53px;
+  max-width: 548px;
 }
 
 @media screen and (max-width: 1140px) {

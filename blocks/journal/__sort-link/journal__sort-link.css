@@ -1,10 +1,10 @@
 .journal__sort-link {
 margin: 16px auto;
-font-family: PT Sans;
+    font-family: PT, serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 18px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-decoration: none;
 color: #323232;
 text-transform: uppercase;

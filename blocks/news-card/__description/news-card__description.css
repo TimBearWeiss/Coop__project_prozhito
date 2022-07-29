@@ -2,10 +2,10 @@
   grid-column: 1/-1;
   margin: 20px 0 0;
   font-size: 20px;
-  font-family: 'PT', 'Arial', sans-serif;
+  font-family: 'PT Sans', serif;
   color: rgba(50, 50, 50, 0.6);
-  line-height: 1.2;
   height: 130px;
+  line-height: 1.3;
 }
 
 @media screen and (max-width: 1220px) {
@@ -20,5 +20,6 @@
   .news-card__description {
     grid-row: 2;
     height: 54px;
+    color: rgba(50, 50, 50, 1);
   }
 }
