@@ -1,5 +1,6 @@
 .actions__container-row {
 	margin: 0 auto;
+	padding: 0;
 	width: 1144px;
 	height: 572px;
 	display: flex;

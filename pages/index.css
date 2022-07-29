@@ -152,3 +152,7 @@
 @import url('../blocks/paginator/__button/_active/paginator__button_active.css');
 
 @import url('../blocks/journal/__heading/journal__heading.css');
+
+@import url('../blocks/materials/__dots/materials__dots.css');
+@import url('../blocks/materials/__dot/materials__dot.css');
+@import url('../blocks/materials/__dot/_active/materials__dot_active.css');

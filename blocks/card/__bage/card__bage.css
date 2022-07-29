@@ -18,6 +18,7 @@
   position: absolute;
   left: calc(50% - 187px / 2);
   top: -16px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1140px) {
