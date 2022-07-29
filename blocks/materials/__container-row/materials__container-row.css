@@ -3,22 +3,19 @@
   display: flex;
   justify-content: center;
   column-gap: 80px;
-
   margin: 0 auto 0 auto;
 }
 
-@media screen and (max-width: 762px) {
+@media screen and (max-width: 870px) {
   .materials__container-row {
     gap: 12px;
     overflow-x: scroll;
-    justify-content: unset;
     flex-direction: unset;
+    padding-top: 16px;
   }
 
   .materials__container-row::-webkit-scrollbar {
-    background-color: #e7e4de;
-    border-radius: 2px;
-    height: 4px;
+    display: none;
   }
 
   .materials__container-row::-webkit-scrollbar-thumb {
@@ -26,3 +23,9 @@
     border-radius: 2px;
   }
 }
+@media screen and (max-width: 762px) {
+  .materials__container-row {
+    justify-content: unset;
+  }
+}
+
