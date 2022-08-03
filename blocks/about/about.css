@@ -1,0 +1,19 @@
+.about {
+	margin: 0 auto;
+	padding: 32px 0 114px 32px;
+  	background: #F7F4F0;
+}
+
+@media screen and (max-width: 1416px) {
+	.about {
+		padding: 15px 0 28px 16px;
+	}
+  }
+    
+@media screen and (max-width: 600px) {
+	.about {
+		padding: 31px 12px 93px;
+	}
+  }
+  
+  

@@ -1,2 +1,2 @@
-# Coop__project_prozhito
-Командный проект 
+# Coop__Project
+Совместный проект от заказчика

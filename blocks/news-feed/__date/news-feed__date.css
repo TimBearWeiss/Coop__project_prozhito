@@ -1,0 +1,26 @@
+.news-feed__date {
+	font-family: PT, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	grid-column: 1 / 2;
+	grid-row: 1;
+	margin: 0;
+	color: #323232;
+}
+
+@media screen and (max-width: 1220px) {
+	.news-feed__date {
+		font-size: 14px;
+		line-height: 18px;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	.news-feed__date {
+		grid-column: 1;
+		grid-row: 3;
+		padding-top: 8px;
+	}
+}

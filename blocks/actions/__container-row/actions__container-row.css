@@ -1,0 +1,25 @@
+.actions__container-row {
+	margin: 0 auto;
+	padding: 0;
+	width: 1144px;
+	height: 572px;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1439px) {
+	.actions__container-row {
+		height: 448px;
+		width: 736px;
+	}
+  }
+    
+@media screen and (max-width: 767px) {
+	.actions__container-row {
+		width: 336px;
+		height: 754px;
+		justify-content: center;
+	}
+  }

@@ -1,0 +1,26 @@
+.card__excerpt {
+  max-width: 296px;
+  font-family: 'PT Sans', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: rgba(50, 50, 50, 0.5);
+  margin: 0 0 28px 0;
+}
+
+@media screen and (max-width: 1140px) {
+  .card__excerpt {
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 213px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .card__excerpt {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

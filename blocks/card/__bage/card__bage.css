@@ -1,0 +1,38 @@
+.card__bage {
+  background: #a5cdab;
+  border-radius: 8px;
+  width: 187px;
+  height: 34px;
+  z-index: 4;
+  border: none;
+  padding: 0;
+  font-family: 'PT Sans', serif;
+  text-decoration-color: #323232;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: calc(50% - 187px / 2);
+  top: -16px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1140px) {
+  .card__bage {
+    width: 134px;
+    left: calc(50% - 134px / 2);
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .card__bage {
+    width: 108px;
+    left: calc(50% - 108px / 2);
+  }
+}

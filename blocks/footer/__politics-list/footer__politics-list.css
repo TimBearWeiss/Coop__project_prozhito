@@ -1,0 +1,12 @@
+.footer__politics-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__politics-list {
+    margin-top: 36px;
+  }
+}

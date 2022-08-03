@@ -1,0 +1,24 @@
+.experience-card__image {
+  width: 204px;
+  height: 204px;
+  border-radius: 102px;
+  margin: 0 auto 20px;
+}
+
+@media screen and (max-width: 1220px) {
+  .experience-card__image {
+    width: 86px;
+    height: 86px;
+    border-radius: 43px;
+    margin-bottom: 4px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .experience-card__image {
+    height: 160px;
+    width: 160px;
+    border-radius: 80px;
+    margin-bottom: 12px;
+  }
+}

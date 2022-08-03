@@ -1,0 +1,13 @@
+.popup-menu__menu-item{
+  font-size: 14px;
+  font-family: 'PT', 'Arial', sans-serif;
+  cursor: pointer;
+}
+
+.popup-menu__menu-item:nth-of-type(3n+1) {
+  align-self: start;
+}
+
+.popup-menu__menu-item:nth-of-type(3n) {
+  align-self: end;
+}

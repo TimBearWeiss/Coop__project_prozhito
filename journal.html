@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journal page</title>
+  <link rel="stylesheet" href="./pages/journal.css">
+  <link rel="stylesheet" href="./pages/index.css"/>
+</head>
+<body>
+<header class="header header_bg_white">
+  <nav class="header__nav">
+    <a href="index.html">
+      <img src="./images/logo.svg" alt="Logo" class="logo"/>
+    </a>
+    <ul class="header__menu-list">
+      <li class="header__menu-item">
+        <a href="https://prozhito.org/page/archive" class="link">Архив</a>
+      </li>
+      <li class="header__menu-item">
+        <a href="https://prozhito.org/persons" class="link">Корпус</a>
+      </li>
+      <li class="header__menu-item header__about-project">
+        <a href="#" class="link">О&nbsp;проекте</a>
+      </li>
+    </ul>
+    <button class="header__mobile-menu"></button>
+  </nav>
+  <ul class="header__submenu-list">
+    <li class="header__menu-item">
+      <a href="#" class="link">О&nbsp;прожито</a>
+    </li>
+    <li class="header__menu-item">
+      <a href="#" class="link">Как&nbsp;работать?</a>
+    </li>
+    <li class="header__menu-item"><a href="#" class="link">Медиа</a></li>
+    <li class="header__menu-item"><a href="#" class="link">Новости</a></li>
+    <li class="header__menu-item">
+      <a href="#" class="link">Спецпроекты</a>
+    </li>
+  </ul>
+  <script src="./scripts/submenu.js"></script>
+</header>
+
+<main>
+  <section class="breadcrumbs">
+    <a href="index.html" target="_blank" class="breadcrumbs__link">Главная страница</a> / <a href="journal.html" class="breadcrumbs__link">Журнал «Прожито» </a>
+  </section>
+  <h1 class="journal__heading">Журнал «Прожито»</h1>
+  <p class="journal__sort-title">Сортировать :</p>
+  <div class="journal__sort-block">
+    <a href="#" class="journal__sort-link">Все</a>
+    <a href="#" class="journal__sort-link">Тематическая подборка</a>
+    <a href="#" class="journal__sort-link">Спецпроекты</a>
+    <a href="#" class="journal__sort-link">Опыт читателя</a>
+  </div>
+  <section class="section posts">
+    <div class="container posts__container">
+      <article class="journal-card">
+        <img
+          src="./images/journal1.jpg"
+          class="journal-card__image"
+          alt="Обложка журнала"
+        />
+        <p class="journal-card__category">Тематическая подборка</p>
+        <h2 class="journal-card__title">Сталин умер</h2>
+        <h3 class="journal-card__subtitle">
+          Что теперь будет?! Как нам жить без него?
+        </h3>
+        <p class="journal-card__description">
+          Все газеты впервые опубликовали портреты т.Сталина
+          и многочисленные статьи. В них т.Сталин именуется вождём
+          мирового пролетариата.
+        </p>
+      </article>
+      <article class="journal-card">
+        <img
+          src="./images/journal2.jpg"
+          class="journal-card__image"
+          alt="Обложка журнала"
+        />
+        <p class="journal-card__category">Спецпроект</p>
+        <h2 class="journal-card__title">Блокада</h2>
+        <h3 class="journal-card__subtitle">
+          Исследование блокадных дневников
+        </h3>
+        <p class="journal-card__description">
+          В условиях катастрофического голода, холода, вражеских
+          бомбардировок и обстрелов сотни тысяч людей оказались заперты
+          в городе. У многих из них был доступ к бумаге и чернилам,
+          и некоторые начали вести дневники.
+        </p>
+      </article>
+      <article class="experience-card">
+        <h2 class="experience-card__title">
+          Галина Зеленина о дневниках Леонида Липкина
+        </h2>
+        <img
+          src="./images/journal3.jpg"
+          class="experience-card__image"
+          alt="Обложка журнала"
+        />
+        <p class="experience-card__regalia">
+          историк, доцент кафедры теологии иудаизма, библеистики и иудаики
+          РГГУ и ст. н. с. ШАГИ РАНХиГС
+        </p>
+        <p class="experience-card__category">опыт читателя</p>
+      </article>
+      <article class="journal-card">
+        <img
+          src="./images/journal1.jpg"
+          class="journal-card__image"
+          alt="Обложка журнала"
+        />
+        <p class="journal-card__category">Тематическая подборка</p>
+        <h2 class="journal-card__title">Сталин умер</h2>
+        <h3 class="journal-card__subtitle">
+          Что теперь будет?! Как нам жить без него?
+        </h3>
+        <p class="journal-card__description">
+          Все газеты впервые опубликовали портреты т.Сталина
+          и многочисленные статьи. В них т.Сталин именуется вождём
+          мирового пролетариата.
+        </p>
+      </article>
+      <article class="journal-card">
+        <img
+          src="./images/journal2.jpg"
+          class="journal-card__image"
+          alt="Обложка журнала"
+        />
+        <p class="journal-card__category">Спецпроект</p>
+        <h2 class="journal-card__title">Блокада</h2>
+        <h3 class="journal-card__subtitle">
+          Исследование блокадных дневников
+        </h3>
+        <p class="journal-card__description">
+          В условиях катастрофического голода, холода, вражеских
+          бомбардировок и обстрелов сотни тысяч людей оказались заперты
+          в городе. У многих из них был доступ к бумаге и чернилам,
+          и некоторые начали вести дневники.
+        </p>
+      </article>
+      <article class="experience-card">
+        <h2 class="experience-card__title">
+          Галина Зеленина о дневниках Леонида Липкина
+        </h2>
+        <img
+          src="./images/journal3.jpg"
+          class="experience-card__image"
+          alt="Обложка журнала"
+        />
+        <p class="experience-card__regalia">
+          историк, доцент кафедры теологии иудаизма, библеистики и иудаики
+          РГГУ и ст. н. с. ШАГИ РАНХиГС
+        </p>
+        <p class="experience-card__category">опыт читателя</p>
+      </article>
+      <article class="journal-card">
+        <img
+          src="./images/journal1.jpg"
+          class="journal-card__image"
+          alt="Обложка журнала"
+        />
+        <p class="journal-card__category">Тематическая подборка</p>
+        <h2 class="journal-card__title">Сталин умер</h2>
+        <h3 class="journal-card__subtitle">
+          Что теперь будет?! Как нам жить без него?
+        </h3>
+        <p class="journal-card__description">
+          Все газеты впервые опубликовали портреты т.Сталина
+          и многочисленные статьи. В них т.Сталин именуется вождём
+          мирового пролетариата.
+        </p>
+      </article>
+      <article class="journal-card">
+        <img
+          src="./images/journal2.jpg"
+          class="journal-card__image"
+          alt="Обложка журнала"
+        />
+        <p class="journal-card__category">Спецпроект</p>
+        <h2 class="journal-card__title">Блокада</h2>
+        <h3 class="journal-card__subtitle">
+          Исследование блокадных дневников
+        </h3>
+        <p class="journal-card__description">
+          В условиях катастрофического голода, холода, вражеских
+          бомбардировок и обстрелов сотни тысяч людей оказались заперты
+          в городе. У многих из них был доступ к бумаге и чернилам,
+          и некоторые начали вести дневники.
+        </p>
+      </article>
+      <article class="experience-card">
+        <h2 class="experience-card__title">
+          Галина Зеленина о дневниках Леонида Липкина
+        </h2>
+        <img
+          src="./images/journal3.jpg"
+          class="experience-card__image"
+          alt="Обложка журнала"
+        />
+        <p class="experience-card__regalia">
+          историк, доцент кафедры теологии иудаизма, библеистики и иудаики
+          РГГУ и ст. н. с. ШАГИ РАНХиГС
+        </p>
+        <p class="experience-card__category">опыт читателя</p>
+      </article>
+    </div>
+  </section>
+  <div class="paginator">
+    <button class="paginator__left-button"></button>
+    <div class="paginator__numbers">
+      <a href="#" class="paginator__button paginator__button_active">1</a>
+      <a href="#" class="paginator__button">2</a>
+      <a href="#" class="paginator__button">...</a>
+      <a href="#" class="paginator__button">5</a>
+    </div>
+    <button class="paginator__right-button"></button>
+  </div>
+</main>
+<footer class="footer">
+  <nav class="footer__nav">
+    <ul class="footer__menu-list">
+      <li class="footer__menu-item">О&nbsp;команде</li>
+      <li class="footer__menu-item">Благодарности</li>
+      <li class="footer__menu-item">Партнёры</li>
+      <li class="footer__menu-item">FAQ</li>
+      <li class="footer__menu-item">Инструкции</li>
+    </ul>
+  </nav>
+  <div class="footer__info">
+    <div class="footer__about">
+      <a href="index.html">
+        <img src="./images/logo.svg" alt="Logo" class="logo"/>
+      </a>
+      <div class="footer__social-list">
+        <a
+          class="footer__social-item"
+          href="https://t.me/prozhito"
+          target="_blank"
+        >
+          <img
+            src="./images/components/telegram.svg"
+            alt="Telegram"
+            class="footer__social-image"
+          />
+          <p class="footer__social-name">Телеграм</p>
+        </a>
+        <a
+          class="footer__social-item"
+          href="https://vk.com/prozhito"
+          target="_blank"
+        >
+          <img
+            src="./images/components/vk.svg"
+            alt="VK"
+            class="footer__social-image"
+          />
+          <p class="footer__social-name">Вконтакте</p>
+        </a>
+      </div>
+    </div>
+    <div class="footer__politics-list">
+      <a class="footer__politics-item" href="#" target="_blank"
+      >Юридическая информация</a
+      >
+      <a class="footer__politics-item" href="#" target="_blank"
+      >Политика конфиденциальности</a
+      >
+    </div>
+  </div>
+</footer>
+<div class="popup-menu">
+  <div class="popup-menu__header">
+    <img src="./images/logo.svg" alt="Logo" class="logo"/>
+    <button class="popup-menu__close-button"></button>
+  </div>
+  <ul class="popup-menu__menu-list">
+    <li class="popup-menu__menu-item"><a href="https://prozhito.org/page/archive" class="link">Архив</a></li>
+    <li class="popup-menu__menu-item"><a href="https://prozhito.org/persons" class="link">Корпус</a></li>
+    <li class="popup-menu__menu-item"><a href="#" class="link">О&nbsp;проекте</a></li>
+  </ul>
+  <ul class="popup-menu__menu-list">
+    <li class="popup-menu__menu-item"><a href="#" class="link">О&nbsp;прожито</a></li>
+    <li class="popup-menu__menu-item"><a href="#" class="link">Как&nbsp;работать?</a></li>
+    <li class="popup-menu__menu-item"><a href="#" class="link">Медиа</a></li>
+    <li class="popup-menu__menu-item"><a href="#" class="link">Новости</a></li>
+    <li class="popup-menu__menu-item"><a href="#" class="link">Спецпроекты</a></li>
+  </ul>
+</div>
+<script src="./scripts/headerMenu.js"></script>
+</body>
+</html>

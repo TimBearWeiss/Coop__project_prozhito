@@ -1,0 +1,20 @@
+.journal-card__subtitle {
+  margin: 0 0 12px;
+  color: #F5F5F5;
+  font-family: 'PT', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1220px) {
+  .journal-card__subtitle {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .journal-card__subtitle {
+    margin-bottom: 4px;
+  }
+}

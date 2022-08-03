@@ -1,0 +1,15 @@
+.experience-card__category {
+  margin: auto 0 0;
+  color: #323232;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'PT', 'Arial', sans-serif;
+}
+
+@media screen and (max-width: 1220px) {
+  .experience-card__category {
+    font-size: 12px;
+  }
+}

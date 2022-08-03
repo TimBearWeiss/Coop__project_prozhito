@@ -1,0 +1,16 @@
+.paginator {
+    margin: 0 auto;
+    padding: 40px 376px 0;
+    max-width: 678px;
+    max-height: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1220px) {
+	.paginator {
+        display: none;
+	}
+  }

@@ -1,0 +1,21 @@
+.special-projects__card {
+    max-width: 678.17px;
+    height: 351.99px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F7F4F0;
+}
+
+@media screen and (max-width: 800px) {
+    .special-projects__card {
+        max-width: 336px;
+        height: 386px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .special-projects__card {
+        box-shadow: 0 0 0 1px #A5CDAB;
+    }
+}

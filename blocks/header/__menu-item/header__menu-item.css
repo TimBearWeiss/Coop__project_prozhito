@@ -1,0 +1,25 @@
+.header__menu-item {
+  font-family: 'PT Sans', serif;
+  font-size: 20px;
+  line-height: 1.30;
+  padding: 12px 10px;
+  color: #323232;
+  box-sizing: content-box;
+  border-bottom: 1px solid transparent;
+}
+
+.header__menu-item:last-of-type {
+  margin: 0;
+}
+
+.header__menu-item:hover {
+  border-bottom: 1px solid #323232;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .header__menu-item {
+    font-size: 14px;
+    padding: 16px 10px;
+  }
+}

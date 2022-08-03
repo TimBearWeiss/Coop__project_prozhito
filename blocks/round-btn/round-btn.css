@@ -1,0 +1,7 @@
+.round-btn {
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  background: url('../../images/components/right-arrow.svg') center no-repeat;
+}

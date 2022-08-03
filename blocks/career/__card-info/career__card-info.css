@@ -1,0 +1,18 @@
+.career__card-info {
+  margin: 56px 133px 64px 136px;
+  max-width: 670px;
+}
+
+@media screen and (max-width: 1140px) {
+  .career__card-info {
+    margin: 20px 22px 20px 75px;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .career__card-info {
+    max-width: 336px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+  }
+}

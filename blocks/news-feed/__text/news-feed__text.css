@@ -1,0 +1,26 @@
+.news-feed__text {
+	grid-column: 1/3;
+	grid-row: 3;
+	margin: 0;
+	padding-top: 20px;
+	font-family: 'PT Sans', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 26px;
+	color: #323232;
+}
+
+@media screen and (max-width: 1220px) {
+	.news-feed__text {
+		font-size: 14px;
+		line-height: 18px;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	.news-feed__text {
+		grid-column: 1/3;
+		grid-row: 2;
+	}
+}

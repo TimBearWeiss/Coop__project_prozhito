@@ -1,0 +1,12 @@
+.slider-container__title {
+  font-size: 46px;
+  font-weight: 400;
+  margin: 0;
+  justify-self: flex-start;
+}
+
+@media screen and (max-width: 1220px) {
+  .slider-container__title {
+    font-size: 30px;
+  }
+}

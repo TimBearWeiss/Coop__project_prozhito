@@ -1,0 +1,25 @@
+.posts__container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap:62px;
+    column-gap: 80px;
+    justify-items: center;
+}    
+
+@media screen and (max-width: 1219px) {
+  .posts__container {
+      column-gap: 40.5px;
+      max-width: 612px;
+  }
+}
+@media screen and (max-width: 768px) {
+	.posts__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      column-gap: 0;
+	}
+  }

@@ -1,0 +1,17 @@
+.slider-container__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1220px) {
+  .slider-container__header {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .slider-container__header {
+    display: none;
+  }
+}

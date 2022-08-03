@@ -1,0 +1,24 @@
+.actions__cards_item-link {
+	display: flex;
+	align-items: center;
+	width: 498px;
+	height: 50px;
+	margin: 36px 32px ;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 1439px) {
+	.actions__cards_item-link {
+		width: 306px;
+		height: 32px;
+		margin: 28px;
+	}
+  }
+    
+@media screen and (max-width: 767px) {
+	.actions__cards_item-link {
+		width: 312px;
+		height: 50px;
+		margin: 12px;
+	}
+  }

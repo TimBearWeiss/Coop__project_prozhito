@@ -1,0 +1,18 @@
+.footer__politics-item {
+  text-decoration: none;
+  font-family: 'PT', 'Arial', sans-serif;
+  font-size: 20px;
+  color: #323232;
+  margin-bottom: 12px;
+}
+
+.footer__politics-item:last-of-type {
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__politics-item {
+    font-size: 14px;
+  }
+}

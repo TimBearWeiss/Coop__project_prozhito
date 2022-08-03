@@ -1,0 +1,14 @@
+.materials__dot  {
+  padding: 0;
+  background-color: #A5CDAB;
+  border-radius: 4px;
+  border: unset;
+  width: 8px;
+  height: 8px;
+  box-sizing: border-box;
+  margin: 0 8px 0 0;
+}
+
+.materials__dot:last-of-type {
+  margin: 0;
+}

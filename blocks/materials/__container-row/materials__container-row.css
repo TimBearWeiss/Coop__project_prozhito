@@ -1,0 +1,31 @@
+.materials__container-row {
+  max-width: 1144px;
+  display: flex;
+  justify-content: center;
+  column-gap: 80px;
+  margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 870px) {
+  .materials__container-row {
+    gap: 12px;
+    overflow-x: scroll;
+    flex-direction: unset;
+    padding-top: 16px;
+  }
+
+  .materials__container-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  .materials__container-row::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 2px;
+  }
+}
+@media screen and (max-width: 762px) {
+  .materials__container-row {
+    justify-content: unset;
+  }
+}
+

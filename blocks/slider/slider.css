@@ -1,0 +1,20 @@
+.slider {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 560px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1220px) {
+  .slider {
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .slider {
+    flex-direction: column;
+    height: unset;
+  }
+}

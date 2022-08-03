@@ -1,0 +1,10 @@
+.audioplayer__play-button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .audioplayer__play-button {
+    width: 18px;
+    height: 20px;
+  }
+}
